@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-me,
+.skills,
+.life-info {
+    margin: 20px;
+}
+
+.info-kehidupan {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    border-radius: 50%; /* Menggunakan border-radius untuk memberikan efek lingkaran pada gambar profil */
+    width: 200px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    height: 200px;
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    margin-bottom: 1px; /* Memberikan jarak antara gambar profil dan teks */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 0 15px;
+}
+
+.social-links img {
+    width: 30px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+    height: auto;
+}
+
+.social-links a img:hover {
+    opacity: 0.7; /* Efek transparansi ketika dihover */
+}
